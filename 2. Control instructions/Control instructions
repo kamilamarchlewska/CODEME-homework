@@ -1,1 +1,5 @@
-Control instructions
+## Control instructions
+* If, Elif, Else
+* FOR / Range() / WHILE
+* break / continue
+* random
