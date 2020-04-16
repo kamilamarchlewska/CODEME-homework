@@ -1,1 +1,30 @@
-Variables and types
+# Variables and types
+
+## Table of contents
+* Spis zadań (#Spis-zadań)
+* [Technologies](#technologies)
+
+## Spis zadań
+* 1 - Ile minut ma rok?
+* 2 - Ile pełnych tygodni zajmie Ci zdobycie nowej umiejętności?
+* 3 - BMI
+* 4 - Oblicz koszt wyprawy
+* 5 - Obliczenia
+* 6 - Do zmiennej quote przypisz zdanie
+* 7 - Stwórz zmienną przechowującą wyraz o długości nieparzystej(..)
+* 8 - Stwórz dwie zmienne s1 i s2 przechowujące dowolne wyrazy(...)
+* 9 - Utwórz skrypt, który zapyta użytkownika o tytuł książki(..)
+* 10 - Palindrom
+* 11 - Formatowanie tekstu
+* 12 - pobiera dwie wiadomosci od uzytkownika / "UWAGA: ..."(...)
+* 13 - Sumowanie liczb
+* 14 - Zapyta użytkownika o trzy liczby całkowite(..)
+* 15 -  Pokaż ile razy pierwsza liczba mieści się w drugiej(...)
+* 16 - Ile miejsca pozostało w windzie, gdy lodówka jest w środku.
+* 17 - Napisz konwerter walut.
+* 18 - KANTOR ONLINE - NISKIE CENY
+* 19 - zapotrzebowanie kaloryczne
+
+## Technologies
+Project is created with:
+* Python version: 3.7
