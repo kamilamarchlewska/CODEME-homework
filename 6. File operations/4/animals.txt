@@ -1,0 +1,10 @@
+lampart
+antylopa
+hiena
+kameleon
+koala
+krokodyl
+lew
+skorpion
+zebra
+tygrys
