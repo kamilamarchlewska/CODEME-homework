@@ -14,6 +14,7 @@ homework from the course
 * File operations
 * JSON
 * Modules
+* Exceptions
 	
 ## Technologies
 Project is created with:
