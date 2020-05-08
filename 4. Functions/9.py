@@ -28,7 +28,7 @@ def carVintage():
         print(f'{carBrand} posiada co najmniej 75% oryginalnych części.')
         print('Nie spełnia kryterium dotyczące wieku auta.')
     else:
-        print(f'Twój samochód {carBrand} jest jeszcze zbyt młody.')
+        print(f'Twój samochód {carBrand} nie może być zarejestrowany jako zabytek.')
 
 
 carDict = {'marka':'MBW', 'model':'E33', 'rocznik':'1992', 'czy oryginalny?':'NIE'}
