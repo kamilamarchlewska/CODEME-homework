@@ -1,0 +1,85 @@
+# CALORIE CALCULATOR:
+
+print('CALORIE CALCULATOR')
+op = 'YES'
+while op == 'YES':
+
+    genderUser = input('Are you male ( M ) or female ( F )? Enter the correct letter: ')
+
+    if genderUser == 'M':
+        massMan = float(input('Enter your weight (kg): '))
+        growthMan = float(input('Enter your height (cm): '))
+        ageMan = float(input('Enter your age: '))
+        PPMM = (10 * massMan) + (6.25 * growthMan) - (ageMan + 5)
+
+        print('What is your lifestyle? ')
+        print('( 1 ) Sitting work | lack of physical activity.')
+        print('( 2 ) Non-physical work | not very active lifestyle.')
+        print('( 3 ) Light physical work | regular exercise 3-4 times (about 5 hours) a week.')
+        print('( 4 ) Physical work | regular exercise 5-6 times (about 7 hours) a week.')
+        print('( 5 ) Hard physical work | regular exercise 7 times a week.')
+
+        opm = 'M.YES'
+        while opm == 'M.YES':
+            number = input('Enter the lifestyle number: ')
+
+            if number == '1':
+                print(f'Your caloric demand is: {int(PPMM * 1.2)} kcal')
+                break
+            elif number == '2':
+                print(f'Your caloric demand is: {int(PPMM * 1.4)} kcal')
+                break
+            elif number == '3':
+                print(f'Your caloric demand is: {int(PPMM * 1.6)} kcal')
+                break
+            elif number == '4':
+                print(f'Your caloric demand is: {int(PPMM * 1.8)} kcal')
+                break
+            elif number == '5':
+                print(f'Your caloric demand is: {int(PPMM * 2.0)} kcal')
+                break
+
+            else:
+                print('Invalid number entered.')
+                opm = input('Do you want to re-enter the number? (M.YES/M.NO)? ')
+
+    elif genderUser == 'F':
+        massWoman = float(input('Enter your weight (kg): '))
+        growthWoman = float(input('Enter your height (cm): '))
+        ageWoman = float(input('Enter your age: '))
+        PPMM = (10 * massWoman) + (6.25 * growthWoman) - (ageWoman - 161)
+
+        print('What is your lifestyle? ')
+        print('( 1 ) Sitting work | lack of physical activity.')
+        print('( 2 ) Non-physical work | not very active lifestyle.')
+        print('( 3 ) Light physical work | regular exercise 3-4 times (about 5 hours) a week.')
+        print('( 4 ) Physical work | regular exercise 5-6 times (about 7 hours) a week.')
+        print('( 5 ) Hard physical work | regular exercise 7 times a week.')
+
+        opk = 'W.YES'
+        while opk == 'W.YES':
+            number = input('Enter the lifestyle number: ')
+
+            if number == '1':
+                print(f'Your caloric demand is: {int(PPMM * 1.2)} kcal')
+                break
+            elif number == '2':
+                print(f'Your caloric demand is: {int(PPMM * 1.4)} kcal')
+                break
+            elif number == '3':
+                print(f'Your caloric demand is: {int(PPMM * 1.6)} kcal')
+                break
+            elif number == '4':
+                print(f'Your caloric demand is: {int(PPMM * 1.8)} kcal')
+                break
+            elif number == '5':
+                print(f'Your caloric demand is: {int(PPMM * 2.0)} kcal')
+                break
+
+            else:
+                print('Invalid number entered.')
+                opm = input('Do you want to re-enter the number? (W.YES/W.NO)? ')
+
+    else:
+        print('Invalid number entered.')
+    op = input('Do you want to re-enter the number? (YES/NO)? ')
