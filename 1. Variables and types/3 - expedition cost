@@ -1,0 +1,8 @@
+# Calculate the cost of the trip.
+
+burning = float(input('Enter gasoline burning (l): '))
+route = float(input('Enter the length of the route (km): '))
+cost = float(input('Enter the price of gasoline: '))
+
+expedition_cost = (((route / 100) * burning) * cost)
+print('Expedition cost:', round(expedition_cost, 2), 'PLN')
