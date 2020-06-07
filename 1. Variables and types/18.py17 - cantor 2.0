@@ -1,0 +1,46 @@
+#Upgrade the program. Should return the amount of banknotes - 50, 20, 10, 5.
+
+print('ONLINE EXCHANGE OFFER - LOW PRICES')
+
+exchangeEuro = 4.19
+exchangeDolar = 3.90
+
+moneyHoliday = float(input('Enter the amount of money: '))
+print(f'The amount entered - {moneyHoliday}.')
+
+
+currencyWhat = input('What currency will you use? Enter EURO or DOLLAR: ')
+if currencyWhat == 'DOLLAR':
+    calculationEuro = moneyHoliday / exchangeDolar
+    print(f'The amount is {round(calculationEuro)} €')
+    denomination = input('What denomination is to be paid out? Available cash denominations: 50, 20, 10, 5: ')
+    if denomination == '10':
+        euro_10 = calculationEuro // 10
+        print(f'You will receive {int(euro_10)} banknotes.')
+    if denomination == '5':
+        euro_5 = calculationEuro // 5
+        print(f'You will receive {int(euro_5)} banknotes.')
+    if denomination == '20':
+        euro_5 = calculationEuro // 20
+        print(f'You will receive {int(euro_5)} banknotes.')
+    if denomination == "50":
+        euro_5 = calculationEuro // 50
+        print(f'You will receive {int(euro_5)} banknotes.')
+else:
+    calculationDollar = moneyHoliday / exchangeDolar
+    print(f'The amount is {round(calculationDollar)} $')
+    denomination = input('What denomination is to be paid out? Available cash denominations: 50, 20, 10, 5: ')
+    if denomination == '10':
+        dolar_10 = calculationDollar // 10
+        print(f'You will receive {int(dolar_10)} banknotes.')
+    if denomination == '5':
+        dolar_5 = calculationDollar // 5
+        print(f'You will receive {int(dolar_5)} banknotes.')
+    if denomination == '50':
+        dolar_50 = calculationDollar // 50
+        print(f'You will receive {int(dolar_50)} banknotes.')
+    if denomination =="20":
+        dolar_20 = calculationDollar // 20
+        print(f'You will receive {int(dolar_20)} banknotes.')
+
+print('Have a nice trip!')
